@@ -1,0 +1,7 @@
+{
+    "coffeescript.compile": {
+        "files":[
+            "**/*.coffee"
+        ]
+    }
+}

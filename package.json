@@ -1,0 +1,19 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "A collection of challanges that I jave completed on codewars",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "mocha": "^7.1.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  }
+}
