@@ -1,9 +1,9 @@
 function formatDuration (seconds) 
 {
-    console.log("Years: " + seconds/ 31557600)
-    console.log("Days: " + seconds / 86400)
-    console.log("Hours:" + seconds / 3600)
-    console.log("Minutes: " + seconds / 60)
+    console.log("Years: " + Math.floor(seconds / 31557600))
+    console.log("Days: " + Math.floor(seconds / 86400))
+    console.log("Hours:" + Math.floor(seconds / 3600))
+    console.log("Minutes: " + Math.floor(seconds / 60))
     console.log("Seconds: " + seconds)
 }
 
